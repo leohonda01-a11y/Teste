@@ -1,0 +1,2 @@
+python-telegram-bot[all]>=22.0
+matplotlib>=3.7.0
