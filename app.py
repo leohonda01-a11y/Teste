@@ -1,14 +1,13 @@
 from flask import Flask
-import threading
 import os
-
+import subprocess
 
 app = Flask(__name__)
 
 def run_bot():
-    import bot  # só importar já executa
+    subprocess.Popen(["python", "bot.py"])
 
-threading.Thread(target=run_bot).start()
+run_bot()
 
 @app.route("/")
 def home():
