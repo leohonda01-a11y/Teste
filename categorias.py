@@ -44,7 +44,7 @@ PALAVRAS_CHAVE = {
         "hotel", "airbnb", "passeio", "parque", "praia",
         "festa", "balada", "boate", "karaoke", "jogo",
         "game", "netflix", "spotify", "disney", "hbo",
-        "amazon prime", "streaming", "presente",
+        "amazon prime", "streaming",
     ],
     "Roupas": [
         "roupa", "camisa", "camiseta", "calça", "calca",
