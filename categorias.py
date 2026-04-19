@@ -72,6 +72,9 @@ PALAVRAS_CHAVE = {
         "pro", "plus", "anual", "trimestral",
         "chatgpt", "openai", "github", "icloud", "google one",
     ],
+    "Presentes": [
+        "Presente", "Presentes",
+    ],
 }
 
 
@@ -103,6 +106,7 @@ def obter_emoji_categoria(categoria: str) -> str:
         "Mercado": "🛒",
         "Contas": "💡",
         "Assinaturas": "📱",
+        "Presentes": "🎁",
         "Outros": "📦",
     }
     return emojis.get(categoria, "📦")
